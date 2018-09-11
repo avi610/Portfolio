@@ -2,7 +2,7 @@
   <div id="app">
     <b-alert show>Default Alert</b-alert>
     <b-button variant="primary">I am a Button</b-button>
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png" />
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'assets/custom.scss';
+@import "assets/custom.scss";
 @import '~bootstrap-vue/dist/bootstrap-vue.css';
 @import '~bootstrap/scss/bootstrap.scss';
 
